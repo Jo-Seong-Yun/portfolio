@@ -1,39 +1,61 @@
 {
-  "name": "Your Name",
-  "greeting": "안녕하세요, 저는",
-  "title": "Frontend Developer / Designer",
-  "hero_desc": "아름답고 사용하기 쉬운 웹 경험을 만듭니다.",
-  "about_heading": "Your Name",
-  "about_p1": "웹 개발에 열정을 가진 개발자입니다. 사용자 경험을 중시하며, 깔끔하고 유지보수 가능한 코드를 작성하는 것을 좋아합니다.",
-  "about_p2": "현재는 프론트엔드 개발을 중심으로 공부하고 있으며, 다양한 프로젝트를 통해 실력을 키워나가고 있습니다.",
-  "email": "your@email.com",
+  "name": "조성윤",
+  "linkedin_url": "#",
+  "skills_frontend": [
+    "영상촬영",
+    "영상편집(Premiere)",
+    "모션그래픽"
+  ],
+  "about_heading": "조성윤",
+  "github_url": "https://github.com/Jo-Seong-Yun",
+  "about_p1": "영상쟁이입니다아아아ㅏ아",
+  "about_p2": "hi",
   "location": "대한민국",
-  "skills_frontend": ["HTML / CSS", "JavaScript", "React"],
-  "skills_backend": ["Node.js", "Python", "SQL"],
-  "skills_tools": ["Git / GitHub", "VSCode", "Figma"],
+  "hero_desc": "장르를 가리지 않는 창작물을 만듭니다.",
+  "skills_backend": [
+    "Node.js",
+    "Python",
+    "SQL"
+  ],
+  "title": "Video Artist",
+  "greeting": "안녕하세요, 저는",
   "projects": [
     {
       "title": "프로젝트 이름",
       "description": "프로젝트에 대한 간략한 설명을 여기에 작성하세요.",
-      "tags": ["HTML", "CSS", "JS"],
+      "tags": [
+        "HTML",
+        "CSS",
+        "JS"
+      ],
       "github": "#",
       "live": "#"
     },
     {
       "title": "프로젝트 이름",
       "description": "프로젝트에 대한 간략한 설명을 여기에 작성하세요.",
-      "tags": ["React", "Node.js"],
+      "tags": [
+        "React",
+        "Node.js"
+      ],
       "github": "#",
       "live": "#"
     },
     {
       "title": "프로젝트 이름",
       "description": "프로젝트에 대한 간략한 설명을 여기에 작성하세요.",
-      "tags": ["Python", "SQL"],
+      "tags": [
+        "Python",
+        "SQL"
+      ],
       "github": "#",
       "live": "#"
     }
   ],
-  "github_url": "https://github.com/Jo-Seong-Yun",
-  "linkedin_url": "#"
+  "email": "jlion22@gmail.com",
+  "skills_tools": [
+    "Git / GitHub",
+    "VSCode",
+    "Figma"
+  ]
 }
