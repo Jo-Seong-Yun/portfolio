@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav-logo">YourName</div>
+    <ul class="nav-links">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+    </ul>
+    <button class="nav-menu-btn" id="menuBtn">☰</button>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <p class="hero-greeting">안녕하세요, 저는</p>
+      <h1 class="hero-name">Your Name<span class="dot">.</span></h1>
+      <p class="hero-title">Frontend Developer / Designer</p>
+      <p class="hero-desc">아름답고 사용하기 쉬운 웹 경험을 만듭니다.</p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn btn-primary">프로젝트 보기</a>
+        <a href="#about" class="btn btn-secondary">더 알아보기</a>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-grid">
+        <div class="about-img-wrap">
+          <div class="about-img-placeholder">
+            <span>Photo</span>
+          </div>
+        </div>
+        <div class="about-text">
+          <h3>저는 <span class="highlight">Your Name</span>입니다.</h3>
+          <p>
+            웹 개발에 열정을 가진 개발자입니다. 사용자 경험을 중시하며,
+            깔끔하고 유지보수 가능한 코드를 작성하는 것을 좋아합니다.
+          </p>
+          <p>
+            현재는 프론트엔드 개발을 중심으로 공부하고 있으며,
+            다양한 프로젝트를 통해 실력을 키워나가고 있습니다.
+          </p>
+          <div class="about-info">
+            <div class="info-item">
+              <span class="info-label">이름</span>
+              <span class="info-value">Your Name</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label">이메일</span>
+              <span class="info-value">your@email.com</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label">위치</span>
+              <span class="info-value">대한민국</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="skills" id="skills">
+    <div class="container">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="skill-icon">{ }</div>
+          <h3>Frontend</h3>
+          <ul>
+            <li>HTML / CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">⚙</div>
+          <h3>Backend</h3>
+          <ul>
+            <li>Node.js</li>
+            <li>Python</li>
+            <li>SQL</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">◈</div>
+          <h3>Tools</h3>
+          <ul>
+            <li>Git / GitHub</li>
+            <li>VSCode</li>
+            <li>Figma</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="projects" id="projects">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <div class="project-img">Project 1</div>
+          <div class="project-info">
+            <h3>프로젝트 이름</h3>
+            <p>프로젝트에 대한 간략한 설명을 여기에 작성하세요.</p>
+            <div class="project-tags">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">JS</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link">GitHub →</a>
+              <a href="#" class="project-link">Live →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-img">Project 2</div>
+          <div class="project-info">
+            <h3>프로젝트 이름</h3>
+            <p>프로젝트에 대한 간략한 설명을 여기에 작성하세요.</p>
+            <div class="project-tags">
+              <span class="tag">React</span>
+              <span class="tag">Node.js</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link">GitHub →</a>
+              <a href="#" class="project-link">Live →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-img">Project 3</div>
+          <div class="project-info">
+            <h3>프로젝트 이름</h3>
+            <p>프로젝트에 대한 간략한 설명을 여기에 작성하세요.</p>
+            <div class="project-tags">
+              <span class="tag">Python</span>
+              <span class="tag">SQL</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link">GitHub →</a>
+              <a href="#" class="project-link">Live →</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2026 Your Name. All rights reserved.</p>
+    <div class="footer-links">
+      <a href="#">GitHub</a>
+      <a href="#">LinkedIn</a>
+      <a href="#">Email</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
