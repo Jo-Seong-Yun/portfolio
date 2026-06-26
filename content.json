@@ -1,33 +1,51 @@
 {
   "name": "JO SEONG YUN",
-  "greeting": "안녕하세요, 저는",
+  "greeting": "안녕하세요, 저는 말이죠",
   "title": "Video Artist",
   "hero_desc": "장르를 가리지 않는 창작물을 만듭니다.",
   "about_p1": "영상쟁이입니다아아아ㅏ아",
   "about_p2": "hi",
   "email": "jlion22@gmail.com",
   "location": "대한민국",
-  "skills": ["영상촬영", "영상편집(Premiere)", "모션그래픽"],
-  "skills_tools": ["Git / GitHub", "VSCode", "Figma"],
+  "skills": [
+    "영상촬영",
+    "영상편집(Premiere)",
+    "모션그래픽"
+  ],
+  "skills_tools": [
+    "Git / GitHub",
+    "VSCode",
+    "Figma"
+  ],
   "projects": [
     {
       "title": "프로젝트 이름",
       "description": "프로젝트에 대한 간략한 설명을 여기에 작성하세요.",
-      "tags": ["HTML", "CSS", "JS"],
+      "tags": [
+        "HTML",
+        "CSS",
+        "JS"
+      ],
       "github": "#",
       "live": "#"
     },
     {
       "title": "프로젝트 이름",
       "description": "프로젝트에 대한 간략한 설명을 여기에 작성하세요.",
-      "tags": ["React", "Node.js"],
+      "tags": [
+        "React",
+        "Node.js"
+      ],
       "github": "#",
       "live": "#"
     },
     {
       "title": "프로젝트 이름",
       "description": "프로젝트에 대한 간략한 설명을 여기에 작성하세요.",
-      "tags": ["Python", "SQL"],
+      "tags": [
+        "Python",
+        "SQL"
+      ],
       "github": "#",
       "live": "#"
     }
