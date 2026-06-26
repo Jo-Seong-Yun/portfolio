@@ -45,9 +45,7 @@
       <h2 class="section-title">About Me</h2>
       <div class="about-grid">
         <div class="about-img-wrap">
-          <div class="about-img-placeholder">
-            <span>Photo</span>
-          </div>
+          <div class="about-img-placeholder"><span>Photo</span></div>
         </div>
         <div class="about-text">
           <h3>저는 <span class="highlight" id="about-heading">Your Name</span>입니다.</h3>
@@ -79,13 +77,8 @@
       <div class="skills-grid">
         <div class="skill-card">
           <div class="skill-icon">{ }</div>
-          <h3>Frontend</h3>
-          <ul id="skills-frontend"></ul>
-        </div>
-        <div class="skill-card">
-          <div class="skill-icon">⚙</div>
-          <h3>Backend</h3>
-          <ul id="skills-backend"></ul>
+          <h3>Skills</h3>
+          <ul id="skills-list"></ul>
         </div>
         <div class="skill-card">
           <div class="skill-icon">◈</div>
@@ -112,7 +105,99 @@
       <a id="footer-linkedin" href="#">LinkedIn</a>
       <a id="footer-email" href="#">Email</a>
     </div>
+    <button class="admin-login-link" id="adminLoginBtn" title="관리자 로그인">●</button>
   </footer>
+
+  <!-- Edit FAB (로그인 후에만 표시) -->
+  <button class="edit-fab" id="editFab">✏</button>
+
+  <!-- Edit Panel Overlay -->
+  <div class="edit-overlay" id="editOverlay"></div>
+
+  <!-- Edit Panel -->
+  <div class="edit-panel" id="editPanel">
+    <div class="edit-panel-header">
+      <span class="edit-panel-title">사이트 편집</span>
+      <button class="edit-panel-close" id="editPanelClose">✕</button>
+    </div>
+    <div class="edit-panel-body">
+
+      <div class="edit-section">
+        <h3>기본 정보</h3>
+        <div class="edit-field">
+          <label>이름</label>
+          <input type="text" id="e-name" />
+        </div>
+        <div class="edit-field">
+          <label>인사말</label>
+          <input type="text" id="e-greeting" />
+        </div>
+        <div class="edit-field">
+          <label>직함</label>
+          <input type="text" id="e-title" />
+        </div>
+        <div class="edit-field">
+          <label>한줄 소개</label>
+          <input type="text" id="e-hero_desc" />
+        </div>
+      </div>
+
+      <div class="edit-section">
+        <h3>About Me</h3>
+        <div class="edit-field">
+          <label>소개 첫번째 문단</label>
+          <textarea id="e-about_p1"></textarea>
+        </div>
+        <div class="edit-field">
+          <label>소개 두번째 문단</label>
+          <textarea id="e-about_p2"></textarea>
+        </div>
+        <div class="edit-field">
+          <label>이메일</label>
+          <input type="text" id="e-email" />
+        </div>
+        <div class="edit-field">
+          <label>위치</label>
+          <input type="text" id="e-location" />
+        </div>
+      </div>
+
+      <div class="edit-section">
+        <h3>스킬</h3>
+        <div id="e-skills-container"></div>
+        <button class="edit-add-btn" id="e-add-skill">+ 스킬 추가</button>
+      </div>
+
+      <div class="edit-section">
+        <h3>Tools</h3>
+        <div id="e-tools-container"></div>
+        <button class="edit-add-btn" id="e-add-tool">+ Tool 추가</button>
+      </div>
+
+      <div class="edit-section">
+        <h3>프로젝트</h3>
+        <div id="e-projects-container"></div>
+        <button class="edit-add-btn" id="e-add-project">+ 프로젝트 추가</button>
+      </div>
+
+      <div class="edit-section">
+        <h3>링크</h3>
+        <div class="edit-field">
+          <label>GitHub URL</label>
+          <input type="text" id="e-github_url" />
+        </div>
+        <div class="edit-field">
+          <label>LinkedIn URL</label>
+          <input type="text" id="e-linkedin_url" />
+        </div>
+      </div>
+
+    </div>
+    <div class="edit-panel-footer">
+      <button class="btn-save" id="saveBtn">저장하기</button>
+      <button class="btn-logout" id="logoutBtn">로그아웃</button>
+    </div>
+  </div>
 
   <script src="script.js"></script>
 </body>

@@ -23,9 +23,8 @@ collections:
           - { label: "About 소개 두번째 문단", name: "about_p2", widget: "text" }
           - { label: "이메일", name: "email", widget: "string" }
           - { label: "위치", name: "location", widget: "string" }
-          - { label: "Frontend 스킬", name: "skills_frontend", widget: "list" }
-          - { label: "Backend 스킬", name: "skills_backend", widget: "list" }
-          - { label: "Tools 스킬", name: "skills_tools", widget: "list" }
+          - { label: "스킬", name: "skills", widget: "list" }
+          - { label: "Tools", name: "skills_tools", widget: "list" }
           - label: "프로젝트"
             name: "projects"
             widget: "list"
