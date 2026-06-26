@@ -1,0 +1,39 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images"
+public_folder: "/images"
+
+collections:
+  - name: "portfolio"
+    label: "포트폴리오"
+    files:
+      - name: "content"
+        label: "사이트 내용 편집"
+        file: "content.json"
+        format: json
+        fields:
+          - { label: "이름", name: "name", widget: "string" }
+          - { label: "인사말", name: "greeting", widget: "string" }
+          - { label: "직함", name: "title", widget: "string" }
+          - { label: "Hero 한줄 소개", name: "hero_desc", widget: "string" }
+          - { label: "About 이름", name: "about_heading", widget: "string" }
+          - { label: "About 소개 첫번째 문단", name: "about_p1", widget: "text" }
+          - { label: "About 소개 두번째 문단", name: "about_p2", widget: "text" }
+          - { label: "이메일", name: "email", widget: "string" }
+          - { label: "위치", name: "location", widget: "string" }
+          - { label: "Frontend 스킬", name: "skills_frontend", widget: "list" }
+          - { label: "Backend 스킬", name: "skills_backend", widget: "list" }
+          - { label: "Tools 스킬", name: "skills_tools", widget: "list" }
+          - label: "프로젝트"
+            name: "projects"
+            widget: "list"
+            fields:
+              - { label: "제목", name: "title", widget: "string" }
+              - { label: "설명", name: "description", widget: "text" }
+              - { label: "태그 (쉼표로 구분)", name: "tags", widget: "list" }
+              - { label: "GitHub 링크", name: "github", widget: "string", default: "#" }
+              - { label: "라이브 링크", name: "live", widget: "string", default: "#" }
+          - { label: "GitHub URL", name: "github_url", widget: "string" }
+          - { label: "LinkedIn URL", name: "linkedin_url", widget: "string", required: false }
